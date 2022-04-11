@@ -1,0 +1,68 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "suite1",
+    "children" : [ {
+      "name" : "tc_01",
+      "uid" : "8ed8d94b3e255a29",
+      "parentUid" : "130282642d91aa864fc2a657e3387489",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649405269021,
+        "stop" : 1649405304753,
+        "duration" : 35732
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75", "100.0.4896.75" ]
+    } ],
+    "uid" : "130282642d91aa864fc2a657e3387489"
+  }, {
+    "name" : "suite2",
+    "children" : [ {
+      "name" : "tc_02",
+      "uid" : "93595cf2e63b75f",
+      "parentUid" : "0e56c3af9b6b76792cd3f6087239b45b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1649405346351,
+        "stop" : 1649405367308,
+        "duration" : 20957
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75", "100.0.4896.75" ]
+    } ],
+    "uid" : "0e56c3af9b6b76792cd3f6087239b45b"
+  }, {
+    "name" : "suite3",
+    "children" : [ {
+      "name" : "tc_03",
+      "uid" : "1677e3003c21ef1a",
+      "parentUid" : "4e2316853c16eb1959d6bfcede87d92e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649405407835,
+        "stop" : 1649405419173,
+        "duration" : 11338
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75", "100.0.4896.75" ]
+    } ],
+    "uid" : "4e2316853c16eb1959d6bfcede87d92e"
+  } ]
+}

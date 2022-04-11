@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649405267360' stop='1649405304757'>
+    <name>suite1</name>
+    <title>suite1</title>
+    <test-cases>
+        <test-case start='1649405269021' status='passed' stop='1649405304753'>
+            <name>tc_01</name>
+            <title>tc_01</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+                <parameter kind='argument' name='browserVersion' value='100.0.4896.75'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='26672e67-5ad1-4896-ac48-18ea32600dd1-attachment.png' type='image/png' size='108337'/>
+                <attachment title='Screenshot' source='1e539cd8-45d8-4537-a543-0988d393dd4f-attachment.png' type='image/png' size='108316'/>
+                <attachment title='Screenshot' source='4d364ad0-153c-473c-b98e-1a10307fc9b5-attachment.png' type='image/png' size='109280'/>
+                <attachment title='Screenshot' source='f7bbed87-84fb-4bbe-b0b0-ef7c28a893b7-attachment.png' type='image/png' size='109280'/>
+                <attachment title='Screenshot' source='2de02428-dc33-4d38-b42b-8dbe8e1ac44a-attachment.png' type='image/png' size='109252'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,105 @@
+{
+  "uid" : "8ed8d94b3e255a29",
+  "name" : "tc_01",
+  "fullName" : "suite1.tc_01",
+  "historyId" : "48a3baa7bb6b2f5a262fd74be448f001",
+  "time" : {
+    "start" : 1649405269021,
+    "stop" : 1649405304753,
+    "duration" : 35732
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "321a0f8aafcdf200",
+      "name" : "Screenshot",
+      "source" : "321a0f8aafcdf200.png",
+      "type" : "image/png",
+      "size" : 108337
+    }, {
+      "uid" : "6f45ee614a25894c",
+      "name" : "Screenshot",
+      "source" : "6f45ee614a25894c.png",
+      "type" : "image/png",
+      "size" : 108316
+    }, {
+      "uid" : "4a0fafa463122993",
+      "name" : "Screenshot",
+      "source" : "4a0fafa463122993.png",
+      "type" : "image/png",
+      "size" : 109280
+    }, {
+      "uid" : "4dbae493d2c51b03",
+      "name" : "Screenshot",
+      "source" : "4dbae493d2c51b03.png",
+      "type" : "image/png",
+      "size" : 109280
+    }, {
+      "uid" : "477d1f401e02f1d3",
+      "name" : "Screenshot",
+      "source" : "477d1f401e02f1d3.png",
+      "type" : "image/png",
+      "size" : 109252
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "suite1"
+  }, {
+    "name" : "testClass",
+    "value" : "suite1"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc_01"
+  }, {
+    "name" : "package",
+    "value" : "suite1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  }, {
+    "name" : "browserVersion",
+    "value" : "100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8ed8d94b3e255a29.json",
+  "parameterValues" : [ "chrome-100.0.4896.75", "100.0.4896.75" ]
+}

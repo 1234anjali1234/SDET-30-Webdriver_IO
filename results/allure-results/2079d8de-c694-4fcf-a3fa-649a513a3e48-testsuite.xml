@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649405346194' stop='1649405367402'>
+    <name>suite2</name>
+    <title>suite2</title>
+    <test-cases>
+        <test-case start='1649405346351' status='broken' stop='1649405367308'>
+            <name>tc_02</name>
+            <title>tc_02</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+                <parameter kind='argument' name='browserVersion' value='100.0.4896.75'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='40f0c266-b56d-4b43-a20c-5808470dc645-attachment.png' type='image/png' size='108337'/>
+                <attachment title='Screenshot' source='42cc6d1d-72ca-4445-a8b4-923ffe2a9578-attachment.png' type='image/png' size='108316'/>
+                <attachment title='Screenshot' source='33e78159-8b60-47f4-aff6-ab38662e93f7-attachment.png' type='image/png' size='109273'/>
+                <attachment title='Screenshot' source='1fe8cb65-d48f-4999-a556-dea2826a181f-attachment.png' type='image/png' size='109273'/>
+                <attachment title='Screenshot' source='f732a6a2-f007-4539-a1a1-035489872441-attachment.png' type='image/png' size='109252'/>
+                <attachment title='Execution video' source='5f99d4bb-64f3-44af-9fb0-cc19b3f8c2ea-attachment.mp4' type='video/mp4' size='107'/>
+            </attachments>
+            <failure>
+                <message>intentional fail</message>
+                <stack-trace>AssertionError: intentional fail
+                    at Context.&lt;anonymous> (C:\Users\FCI-L538\Desktop\SDET_30_webdriverIO\test\specs\demoTc02.js:3:22)
+                    at Context.executeAsync (C:\Users\FCI-L538\Desktop\SDET_30_webdriverIO\node_modules\@wdio\mocha-framework\node_modules\@wdio\utils\build\shim.js:331:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\FCI-L538\Desktop\SDET_30_webdriverIO\node_modules\@wdio\mocha-framework\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

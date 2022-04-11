@@ -1,0 +1,31 @@
+[ {
+  "uid" : "93595cf2e63b75f",
+  "name" : "tc_02",
+  "time" : {
+    "start" : 1649405346351,
+    "stop" : 1649405367308,
+    "duration" : 20957
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8ed8d94b3e255a29",
+  "name" : "tc_01",
+  "time" : {
+    "start" : 1649405269021,
+    "stop" : 1649405304753,
+    "duration" : 35732
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1677e3003c21ef1a",
+  "name" : "tc_03",
+  "time" : {
+    "start" : 1649405407835,
+    "stop" : 1649405419173,
+    "duration" : 11338
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

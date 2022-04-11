@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Fri Apr 08 13:39:06 IST 2022","Fri Apr 08 13:39:27 IST 2022","20957","","suite2","","suite2","tc_02","tc_02",""
+"passed","Fri Apr 08 13:37:49 IST 2022","Fri Apr 08 13:38:24 IST 2022","35732","","suite1","","suite1","tc_01","tc_01",""
+"passed","Fri Apr 08 13:40:07 IST 2022","Fri Apr 08 13:40:19 IST 2022","11338","","suite3","","suite3","tc_03","tc_03",""
